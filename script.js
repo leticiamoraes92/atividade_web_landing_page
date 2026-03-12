@@ -1,27 +1,28 @@
 
-document.getElementById("btnCursos").addEventListener("click", () => {
+document.getElementById("btnComprar").addEventListener("click",()=>{
 
-document.getElementById("cursos").scrollIntoView({
-behavior: "smooth"
+document.getElementById("produtos").scrollIntoView({
+behavior:"smooth"
 });
 
 });
 
 
-const botoes = document.querySelectorAll(".detalhes");
+const botoes = document.querySelectorAll(".comprar");
 
-botoes.forEach(btn => {
+botoes.forEach(btn=>{
 
-btn.addEventListener("click", () => {
+btn.addEventListener("click",()=>{
 
-alert("Mais detalhes sobre o curso em breve!");
-
-});
+alert("Produto adicionado ao carrinho 🌵");
 
 });
 
+});
 
-document.getElementById("formContato").addEventListener("submit", function(e){
+
+
+document.getElementById("formContato").addEventListener("submit",(e)=>{
 
 e.preventDefault();
 
