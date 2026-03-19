@@ -6,29 +6,20 @@ Uma aplicação web desenvolvida com **HTML, CSS e JavaScript (Vanilla JS)** par
 
 ## 🛠 Tecnologias Utilizadas
 
-- 🌐 HTML5
-- 🎨 CSS3
-- ⚡ JavaScript
-- ☁️ Vercel (Deploy)
-- 🐙 GitHub (Versionamento)
+- 🌐 HTML5  
+- 🎨 CSS3  
+- ⚡ JavaScript  
+- ☁️ Vercel (Deploy)  
+- 🐙 GitHub (Versionamento)  
 
 ---
 
 ## 📂 Estrutura do Projeto
-suculentas-shop
+
+```bash
+suculentas-shop/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-└── images
-
----
-
-## ⚙️ Funcionalidades
-
-✅ Página responsiva  
-✅ Cards de produtos  
-✅ Botão de compra  
-✅ Formulário de contato  
-✅ Navegação suave  
-
+└── images/
